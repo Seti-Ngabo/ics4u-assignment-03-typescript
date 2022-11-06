@@ -9,12 +9,12 @@
 // Import
 import Triangle from './Triangle'
 
+// process
 console.log('')
 
 // Triangle 1
-const triangle1 = new Triangle(3, 4, 5)
-
-console.log('Created a 3 mm by 4 mm by 5 mm triangle.')
+const triangle1 = new Triangle(4, 5, 6)
+console.log('This is a 4 mm by 5 mm by 6 mm triangle.')
 console.log(' → Is the triangle valid: ' + testTriangle1.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle1.semiPerimeter().toFixed(4) + ' mm'
@@ -40,8 +40,8 @@ console.log(
 console.log('')
 
 // Triangle 2
-const triangle2 = new Triangle(3, 3, 3)
-console.log('Created a 3 mm by 3 mm by 3 mm triangle.')
+const triangle2 = new Triangle(2, 5, 6)
+console.log('Created a 2 mm by 5 mm by 6 mm triangle.')
 console.log(' → Is the triangle valid: ' + triangle2.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle2.semiPerimeter().toFixed(4) + ' mm'
@@ -67,8 +67,8 @@ console.log(
 console.log('')
 
 // Triangle 3
-const triangle3 = new Triangle(3, 4, 4)
-console.log('Created a 3 mm by 4 mm by 4 mm triangle.')
+const triangle3 = new Triangle(4, 4, 5)
+console.log('Created a 4 mm by 4 mm by 5 mm triangle.')
 console.log(' → Is the triangle valid: ' + triangle3.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle3.semiPerimeter().toFixed(4) + ' mm'
@@ -94,8 +94,8 @@ console.log(
 console.log('')
 
 // Triangle 4
-const triangle4 = new Triangle(2, 3, 4)
-console.log('Created a 2 mm by 3 mm by 4 mm triangle.')
+const triangle4 = new Triangle(3, 3, 4)
+console.log('Created a 3 mm by 3 mm by 4 mm triangle.')
 console.log(' → Is the triangle valid: ' + triangle4.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle4.semiPerimeter().toFixed(4) + ' mm'
@@ -121,8 +121,8 @@ console.log(
 console.log('')
 
 // Triangle 5
-const triangle5 = new Triangle(23, 4, 6)
-console.log('Created a 23 mm by 3 mm by 4 mm triangle.')
+const triangle5 = new Triangle(16, 8, 10)
+console.log('Created a 16 mm by 8 mm by 10 mm triangle.')
 console.log(' → Is the triangle valid: ' + triangle5.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle5.semiPerimeter().toFixed(4) + ' mm'
@@ -146,5 +146,5 @@ console.log(
     ' mm'
 )
 
-// Finsh output
+// Output
 console.log('\nDone.')
