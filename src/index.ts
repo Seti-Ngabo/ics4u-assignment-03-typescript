@@ -15,7 +15,7 @@ console.log('')
 // Triangle 1
 const triangle1 = new Triangle(4, 5, 6)
 console.log('This is a 4 mm by 5 mm by 6 mm triangle.')
-console.log(' → Is the triangle valid: ' + testTriangle1.isValid().toString())
+console.log(' → Is the triangle valid: ' + triangle1.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle1.semiPerimeter().toFixed(4) + ' mm'
 )
@@ -121,8 +121,8 @@ console.log(
 console.log('')
 
 // Triangle 5
-const triangle5 = new Triangle(16, 8, 10)
-console.log('Created a 16 mm by 8 mm by 10 mm triangle.')
+const triangle5 = new Triangle(23, 3, 4)
+console.log('Created a 23 mm by 3 mm by 4 mm triangle.')
 console.log(' → Is the triangle valid: ' + triangle5.isValid().toString())
 console.log(
   ' → Semiperimeter: ' + triangle5.semiPerimeter().toFixed(4) + ' mm'
