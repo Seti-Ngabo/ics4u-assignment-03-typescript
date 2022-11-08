@@ -1,9 +1,9 @@
 /**
- * Triangle Class.
+ * The program uses a triangle class
  *
  * By:      Seti Ngabo
  * Version: 1.0
- * Since:   2022-11-01
+ * Since:   2020-11-01
  */
 
 class Triangle {
